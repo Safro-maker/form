@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: "odinn";
+    src:
+        url("../fonts/Norse-Bold.woff") format("woff"),
+        url("../fonts/Norse-Bold.woff2") format("woff2");
+    font-weight:normal;
+    font-style:normal;
+}
+body {
+    background-color: rgb(18, 18, 18);
+    display:flex;
+    justify-content: center;
+    
+}
+.osn {
+    background-color: white;
+    width:75vw;
+    height:100vh;
+    margin:0;
+    display: flex;
+}
+.background {
+    width:35%;
+    background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+.form {
+    width:65%;
+    background-color: #f9f9f9;
+
+}
+.title {
+    width:100%;
+    height:150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.odin {
+    width:90px;
+    height: auto;
+}
+.teg {
+    color:white;
+    font-size:90px;
+    font-family: "odinn", sans-serif;
+}
+.author {
+    color:lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: 50;
+}
+.danger {
+    font-size:20px;
+    font-weight: 400;
+    margin:40px;
+    margin-right:110px;
+    position: relative;
+    top:90px;
+    font-family: 'Roboto', sans-serif;
+}
+.know {
+    font-size:20px;
+    font-weight: 400;
+    margin:40px;
+    position: relative;
+    top:90px;
+    font-family: 'Roboto', sans-serif;
+}
+form {
+    position: relative;
+    top: 80px;
+}
+.vvod {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 22px;
+}
+.vvod2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+input {
+    width:220px;
+    padding: 5px;
+    border: 1px solid #E5E7EB;
+}
+label {
+    font-size:12px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+.input {
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom: 10px;
+}
+.lets {
+    padding:10px;
+    font-size: 20px;
+}
+button {
+    background-color: darkolivegreen;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin:30px 50px;
+    border: 0px;
+    border-radius: 8px;
+}
+a {
+    color:darkolivegreen;
+    text-decoration: none;
+}
+.login {
+    margin: 80px 50px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+input[type="password"]:invalid {
+    border-color: red;
+}
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
